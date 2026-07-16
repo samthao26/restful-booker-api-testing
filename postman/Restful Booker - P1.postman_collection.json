@@ -1,0 +1,44 @@
+{
+  "info": {
+    "_postman_id": "914cac38-37fc-493d-8c6d-dac8eacb2151",
+    "name": "Restful Booker - P1",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "12200549",
+    "_collection_link": "https://go.postman.co/collection/12200549-914cac38-37fc-493d-8c6d-dac8eacb2151?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Health check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/ping",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "ping"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create token",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create booking",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
