@@ -16,8 +16,10 @@ API test suite for the [Restful-booker](https://restful-booker.herokuapp.com) pl
 ## Findings (spec vs actual)
 - Missing required field returns **500** instead of 400 (POST /booking)
 - Invalid credentials return **200 + "Bad credentials"** instead of 401 (POST /auth)
+-see the full findings log (5 findings) in `docsTestcases_RestfulBooker.xlsx`, sheet *Findings_DevLog*
 ## Roadmap 
 - [x] P1 happy path with assertions 
+- [x] Self-written test cases for Ping and Auth (executed, with findings)
 - [ ] Test cases for all endpoints 
 - [ ] Auth-protected PUT/PATCH/DELETE
 - [ ] Full CRUD workflow suite 
